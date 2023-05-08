@@ -3,7 +3,7 @@
 This is the repository accompanying the single-cell Epi2-seq manuscript by Geisenberger et al. 2023. 
 
 
-## Data avalability
+## Data availability
 Raw scEPI2-seq data have been deposited at the Gene Expression Omnibus (accession xxx). 
 
 ### K562 whole-genome bisulfite sequencing (WGBS)
@@ -19,6 +19,10 @@ BAM files for H3K27me3 and H3K36me3 were downloaded from ENCODE:
 * [H3K27me3 replicate 2](https://www.encodeproject.org/files/ENCFF692KQZ/@@download/ENCFF692KQZ.bam)
 * [H3K36me3 replicate 1](https://www.encodeproject.org/files/ENCFF639PLN/@@download/ENCFF639PLN.bam)
 * [H3K36me3 replicate 2](https://www.encodeproject.org/files/ENCFF673KBG/@@download/ENCFF673KBG.bam)
+
+### K562 ChIC data
+
+Count tables for single-cell sortChIC data from [Zeller et al.](https://www.nature.com/articles/s41588-022-01260-3) were downloaded from [GEO repository GSE164779](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164779) ([direct link](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE164779&format=file&file=GSE164779%5Fmetadata%5FK562%5Fk9me3%2Etxt%2Egz))
 
 ## Data Processing 
 
