@@ -1,7 +1,7 @@
-./raw/*
-./raw
-./archive/*
-./archive
+raw/*
+raw
+archive/*
+archive
 # History files
 .Rhistory
 .Rapp.history
