@@ -2,6 +2,9 @@
 
 This is the repository accompanying the single-cell Epi2-seq manuscript by Geisenberger et al. 2023. 
 
+* K562 data: `/hpc/archive/hub_oudenaarden/seqdata/OUD4702.tar.gz`
+* RPE1 run 1: `/hpc/archive/hub_oudenaarden/seqdata/VAN4973.tar.gz`
+* RPE1 run 2: `/hpc/archive/hub_oudenaarden/seqdata/VAN5396.tar.gz`
 
 ## Data availability
 Raw scEPI2-seq data have been deposited at the Gene Expression Omnibus (accession xxx). 
