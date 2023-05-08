@@ -1,3 +1,6 @@
+./raw/*
+./raw
+./archive/*
 ./archive
 # History files
 .Rhistory
