@@ -4,7 +4,7 @@ This is the repository accompanying the single-cell Epi2-seq manuscript by Geise
 
 
 ## Data avalability
-Raw scEPI2-seq data have been deposited at the Gene Expression Omnibus (accession xxx). Data for comparisons to K562 whole genome bisulfite sequencing data were downloaded from ENCODE ().
+Raw scEPI2-seq data have been deposited at the Gene Expression Omnibus (accession xxx). Data for comparisons to K562 whole genome bisulfite sequencing (WGBS) data were downloaded from ENCODE ([replicate 1](https://www.encodeproject.org/files/ENCFF867JRG/@@download/ENCFF867JRG.bed.gz) and [replicate 2](https://www.encodeproject.org/files/ENCFF721JMB/@@download/ENCFF721JMB.bed.gz)).
 
 
 ## Data Processing 
