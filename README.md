@@ -29,3 +29,6 @@ Preprocessing of fastq.gz files was performed using the Package `SingleCellMulti
 
 ## Code for figures
 All code to produce the figures in the manuscript can be found in the subdirectory `code`.
+
+## Adapter sequences 
+Supplementary files containing all adapter and oligo sequences used for sequencing library preparation are summarized in three supplementary tables in the subdirectory `tables`.
