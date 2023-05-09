@@ -222,6 +222,26 @@ B3 <- rbindlist(cust_dist)[, mod := str_extract(V1, "K[2-9]{1,2}m3")
 B1/B2/B3
 
 
+rbindlist(cust_dist)[, mod := str_extract(V1, "K[2-9]{1,2}m3")
+][, .(N = as.double(.N)), .(mod, V1, dist = round((dist + 0.0001) / 15) * 15)
+  #][, tot := sum(N), .(V1)
+][, cell := as.numeric(as.factor(V1)), .(mod)
+][, N := N / sum(N), .(V1)
+][dist > 30 & dist < 1500
+][, N := N / max(N), .(mod)  
+  #][N > 0.05, N := 0.05
+]%>%group_by(mod, dist) %>% summarize(N= mean(N))%>%  mutate(N=scale(N))%>% select(mod, dist, N) %>% arrange(dist)%>%
+  ggplot() +
+  #geom_line(aes(x = dist, y = N, col=mod)) +
+  geom_smooth(aes(x = dist, y = N, col=mod), span =0.15, method='loess') +
+  scale_color_manual(values=c("#D674BA","#86BF88","#7A416A"))+theme_bw()+
+  coord_cartesian(expand = F)+
+  facet_grid(rows = vars(mod)) +
+  theme_bw()+theme(legend.position = 'bottom')
+  
+  
+
+
 D <- dcast(rbindlist(me_filt), V1 + dist ~ me, value.var = "N"
 )[dist < 500
 ][is.na(`FALSE`), `FALSE` := 0
