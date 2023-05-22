@@ -34,3 +34,6 @@ All code to produce the figures in the manuscript can be found in the subdirecto
 
 ## Adapter sequences 
 Supplementary files containing all adapter and oligo sequences used for sequencing library preparation are summarized in three supplementary tables in the subdirectory `tables`.
+
+## Index Data
+FACS plots for the experiments in RPE-1 hTERT Fucci cells where deposited in the subdirectory `facs_plots`. The subfolder `index_data` contains FACS parameters for every single cell, file names refer to the data available via GEO.
