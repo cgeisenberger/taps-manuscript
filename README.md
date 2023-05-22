@@ -1,5 +1,8 @@
 # Single-cell Epi2-seq
 
+This is the repository accompanying the Manuscript _Single-cell multi-omic detection of DNA methylation and histone modifications reconstructs the dynamics of epigenetic maintenance_. 
+It contains links to all the (raw) sequencing data, FACS index data as well as information about the preprocessing and downstream analyses. 
+
 ## Data availability
 
 ### Single-cell Epi2-seq data
