@@ -1,10 +1,12 @@
 # Single-cell Epi2-seq
 
 ## Data availability
-Raw scEPI2-seq data have been deposited at the Gene Expression Omnibus (accession xxx). 
+
+### Single-cell Epi2-seq data
+Raw data for combined methylation and histone profiling have been deposited at the Gene Expression Omnibus (accession (GSE232637)[https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232637]). 
 
 ### RPE1-hTERT WGBS data
-Raw WGBS data have been deposited at the Gene Expression Omnibus (accession xxx).  
+Raw WGBS data have been deposited at the Gene Expression Omnibus (accession (GSE232637)[https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232637]).  
 
 ### K562 whole-genome bisulfite sequencing (WGBS)
 Data were downloaded from ENCODE:
