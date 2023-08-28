@@ -17,11 +17,13 @@ Data were downloaded from ENCODE:
 * [replicate 2 bed file](https://www.encodeproject.org/files/ENCFF721JMB/@@download/ENCFF721JMB.bed.gz)
 
 ### K562 ChIP-Seq data
-BAM files for H3K27me3 and H3K36me3 were downloaded from ENCODE:
-* [H3K27me3 replicate 1](https://www.encodeproject.org/files/ENCFF190OWE/@@download/ENCFF190OWE.bam)
-* [H3K27me3 replicate 2](https://www.encodeproject.org/files/ENCFF692KQZ/@@download/ENCFF692KQZ.bam)
-* [H3K36me3 replicate 1](https://www.encodeproject.org/files/ENCFF639PLN/@@download/ENCFF639PLN.bam)
-* [H3K36me3 replicate 2](https://www.encodeproject.org/files/ENCFF673KBG/@@download/ENCFF673KBG.bam)
+1. [H3K27me3 dataset](https://www.encodeproject.org/experiments/ENCSR000EWB/)
+  * [H3K27me3 replicate 1](https://www.encodeproject.org/files/ENCFF190OWE/@@download/ENCFF190OWE.bam)
+  * [H3K27me3 replicate 2](https://www.encodeproject.org/files/ENCFF692KQZ/@@download/ENCFF692KQZ.bam)
+2. [H3K36me3 dataset](https://www.encodeproject.org/experiments/ENCSR000DWB/)
+  * [H3K36me3 replicate 1](https://www.encodeproject.org/files/ENCFF639PLN/@@download/ENCFF639PLN.bam)
+  * [H3K36me3 replicate 2](https://www.encodeproject.org/files/ENCFF673KBG/@@download/ENCFF673KBG.bam)
+3. [H3K9me3 dataset](https://www.encodeproject.org/experiments/ENCSR000APE/)
 
 ### K562 ChIC data
 [Count tables](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE164779&format=file&file=GSE164779%5Fmetadata%5FK562%5Fk9me3%2Etxt%2Egz) for single-cell sortChIC data from [Zeller et al.](https://www.nature.com/articles/s41588-022-01260-3) were downloaded from GEO repository [GSE164779](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164779).
