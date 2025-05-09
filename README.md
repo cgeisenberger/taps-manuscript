@@ -11,10 +11,21 @@ Raw data for combined methylation and histone profiling have been deposited at t
 ### RPE1-hTERT WGBS data
 Raw WGBS data have been deposited at the Gene Expression Omnibus (accession [GSE232637](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232637)).  
 
-### K562 whole-genome bisulfite sequencing (WGBS)
-Data were downloaded from ENCODE:
-* [replicate 1 bed file](https://www.encodeproject.org/files/ENCFF867JRG/@@download/ENCFF867JRG.bed.gz)
-* [replicate 2 bed file](https://www.encodeproject.org/files/ENCFF721JMB/@@download/ENCFF721JMB.bed.gz)
+### Whole-genome bisulfite sequencing (WGBS)
+The following files were retrieved from ENCODE:
+
+* K562
+  - [ENCFF867JRG.bed.gz](https://www.encodeproject.org/files/ENCFF867JRG/@@download/ENCFF867JRG.bed.gz)
+  - [ENCFF721JMB.bed.gz](https://www.encodeproject.org/files/ENCFF721JMB/@@download/ENCFF721JMB.bed.gz)
+* HepG2
+  - [ENCFF817LMT.bed.gz](https://www.encodeproject.org/files/ENCFF817LMT/@@download/ENCFF817LMT.bed.gz)
+  - [ENCFF453UDK.bed.gz](https://www.encodeproject.org/files/ENCFF453UDK/@@download/ENCFF453UDK.bed.gz)
+* H1
+  - [ENCFF573YXL.bed.gz](https://www.encodeproject.org/files/ENCFF573YXL/@@download/ENCFF573YXL.bed.gz)
+  - [ENCFF434CNG.bed.gz](https://www.encodeproject.org/files/ENCFF434CNG/@@download/ENCFF434CNG.bed.gz)
+* GM12878
+  - [ENCFF614QHA.bed.gz](https://www.encodeproject.org/files/ENCFF614QHA/@@download/ENCFF614QHA.bed.gz)
+  - [ENCFF570TIL.bed.gz](https://www.encodeproject.org/files/ENCFF570TIL/@@download/ENCFF570TIL.bed.gz)
 
 ### K562 ChIP-Seq data
 1. [H3K27me3 dataset](https://www.encodeproject.org/experiments/ENCSR000EWB/)
