@@ -1,7 +1,7 @@
 # Single-cell Epi2-seq
 
 This is the repository accompanying the Manuscript _Single-cell multi-omic detection of DNA methylation and histone modifications reconstructs the dynamics of epigenetic maintenance_. 
-It contains links to all the (raw) sequencing data, FACS index data as well as information about the preprocessing and downstream analyses. 
+It contains links to all (raw) sequencing data, FACS index data as well as information about the preprocessing and downstream analyses. 
 
 ## Data availability
 
@@ -28,13 +28,15 @@ The following files were retrieved from ENCODE:
   - [ENCFF570TIL.bed.gz](https://www.encodeproject.org/files/ENCFF570TIL/@@download/ENCFF570TIL.bed.gz)
 
 ### K562 ChIP-Seq data
-1. [H3K27me3 dataset](https://www.encodeproject.org/experiments/ENCSR000EWB/)
-  * [H3K27me3 replicate 1](https://www.encodeproject.org/files/ENCFF190OWE/@@download/ENCFF190OWE.bam)
-  * [H3K27me3 replicate 2](https://www.encodeproject.org/files/ENCFF692KQZ/@@download/ENCFF692KQZ.bam)
-2. [H3K36me3 dataset](https://www.encodeproject.org/experiments/ENCSR000DWB/)
-  * [H3K36me3 replicate 1](https://www.encodeproject.org/files/ENCFF639PLN/@@download/ENCFF639PLN.bam)
-  * [H3K36me3 replicate 2](https://www.encodeproject.org/files/ENCFF673KBG/@@download/ENCFF673KBG.bam)
-3. [H3K9me3 dataset](https://www.encodeproject.org/experiments/ENCSR000APE/)
+The following files were retrieved from ENCODE:
+
+* [H3K27me3 dataset](https://www.encodeproject.org/experiments/ENCSR000EWB/)
+  - [H3K27me3 replicate 1](https://www.encodeproject.org/files/ENCFF190OWE/@@download/ENCFF190OWE.bam)
+  - [H3K27me3 replicate 2](https://www.encodeproject.org/files/ENCFF692KQZ/@@download/ENCFF692KQZ.bam)
+* [H3K36me3 dataset](https://www.encodeproject.org/experiments/ENCSR000DWB/)
+  - [H3K36me3 replicate 1](https://www.encodeproject.org/files/ENCFF639PLN/@@download/ENCFF639PLN.bam)
+  - [H3K36me3 replicate 2](https://www.encodeproject.org/files/ENCFF673KBG/@@download/ENCFF673KBG.bam)
+* [H3K9me3 dataset](https://www.encodeproject.org/experiments/ENCSR000APE/)
 
 ### K562 ChIC data
 [Count tables](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE164779&format=file&file=GSE164779%5Fmetadata%5FK562%5Fk9me3%2Etxt%2Egz) for single-cell sortChIC data from [Zeller et al.](https://www.nature.com/articles/s41588-022-01260-3) were downloaded from GEO repository [GSE164779](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164779).
@@ -44,6 +46,9 @@ Preprocessing of fastq.gz files was performed using the Package `SingleCellMulti
 
 ## Code for figures
 All code to produce the figures in the manuscript can be found in the subdirectory `code`.
+
+## Scripts
+Python scripts for generating BAM files per cell and to estimate conversion efficencies from methylated lambda phage spike-ins are located in the folder `scripts`. 
 
 ## Adapter sequences 
 Supplementary files containing all adapter and oligo sequences used for sequencing library preparation are summarized in three supplementary tables in the subdirectory `tables`.
